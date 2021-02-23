@@ -1,0 +1,11 @@
+.LikeButton{
+  border: none;
+  background-color:#ffa50000;
+  outline: none;
+  color:white
+}
+.Size{
+  line-height: 58px;
+  font-size: 24px;
+  font-weight: bold;
+}
