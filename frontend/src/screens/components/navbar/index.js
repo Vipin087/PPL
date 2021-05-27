@@ -22,7 +22,6 @@ const Navbar = (props) => {
   };
 
   useEffect(() => {
-    console.log("jiiiiiiiiiiiii");
     if (window.location.pathname !== "/") {
       let hello;
       
@@ -32,7 +31,6 @@ const Navbar = (props) => {
         <>
           <div className="pro_info pull-right">
             <div className="pro_icn">
-              <img className="circle" src={hello} alt="" />
             </div>
             <div className="pro_txt">
               Me
@@ -67,6 +65,7 @@ const Navbar = (props) => {
         setPendingFR(response.data);
       });
   }, []);
+
   const showPendingRequest = () => {
     setShowPendingFR(!showPendingFR);
     if (showPendingFR) {
