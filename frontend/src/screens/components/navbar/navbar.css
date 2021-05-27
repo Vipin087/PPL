@@ -1,0 +1,24 @@
+.Logout {
+  color: red;
+}
+.Logout:hover {
+  background-color: black;
+}
+.circle {
+  height: 35px;
+  margin-top: -10px;
+  width: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.pendingFrBox{
+  margin-left: 103px;
+  width:100px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  
+
+}
